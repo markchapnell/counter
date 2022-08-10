@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="slide_menu.js"></script>
+    <script defer src="welfare.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Counter - Welcome</title>
+</head>
+<body>
+    <div id="sideMenu" class="sidemenu" onmouseleave="closeMenu()">
+        <ul>
+        <li ><a class="active" href="index.html">Home</a></li>
+        <li><a href="create_cycle.html">Create Cycle</a></li>
+        <li><a href="create_wave.html">Create Wave</a></li>
+        <li><a href="complete_wave.html">Complete Wave</a></li>
+        <li><a href="reconciliation.html">Reconcile</a></li>
+        <li><a href="results.html">Result</a></li>     
+        </ul>
+        
+        <h1 class="small_counter">COUNTER</h1>
+    </div>
+    <img 
+        src="images/arrow.svg" 
+        alt="Right Arrow" 
+        class="expand-arrow" 
+        onmouseover="openMenu()"
+        
+        id="expandArrow"
+    />
+    <h1 id="weAre">WE ARE</h1>
+    <h1 id="welfare">WE<span id="lf">LF</span>ARE</h1>
+    <img src="/images/clarks_logo.png" alt="Clarks Vehicle Conversions" id="myLogo" class="badge">
+
+    
+    <div id="main" class="main" onclick="closeMenu()">
+        <img src="/images/clarks_logo.png" alt="Clarks Vehicle Conversions" id="topLogo" class="badge move">
+        <h1 id="counter">COUNTER</h1>
+        
+
+    
+        
+    </div>
+    
+</body>
+</html>

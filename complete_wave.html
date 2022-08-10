@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="slide_menu.js"></script>
+    <script defer src="welfare.js"></script>
+    <link rel="stylesheet" href="stylesWaveComplete.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Counter - Welcome</title>
+</head>
+<body>
+    <div id="sideMenu" class="sidemenu" onmouseleave="closeMenu()">
+        <ul>
+        <li ><a class="active" href="index.html">Home</a></li>
+        <li><a href="create_cycle.html">Create Cycle</a></li>
+        <li><a href="create_wave.html">Create Wave</a></li>
+        <li><a href="complete_wave.html">Complete Wave</a></li>
+        <li><a href="reconciliation.html">Reconcile</a></li>
+        <li><a href="results.html">Result</a></li>     
+        </ul>
+        
+        <h1 class="small_counter">COUNTER</h1>
+    </div>
+    <img 
+        src="images/arrow.svg" 
+        alt="Right Arrow" 
+        class="expand-arrow" 
+        onmouseover="openMenu()"
+        
+        id="expandArrow"
+    />
+    
+    <div id="main" class="main" onclick="closeMenu()">
+        <h1 class="pageTitle">Complete Count Wave</h1>
+        
+        <form>
+            <label for="waveNumber">Select Wave:</label>
+            <select name="waveNumber" id="waveNumber">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <input type="text" name="defLoc" id="defLoc">
+            <input type="text" name="partNum" id="partNum">
+            <input type="text" name="desc" id="desc">
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>GRN</th>
+                    <th>In Stock</th>
+                    <th>Counted</th>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine1" id="countLine1"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine2" id="countLine2"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine3" id="countLine3"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine4" id="countLine4"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine5" id="countLine5"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine6" id="countLine6"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine7" id="countLine7"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine8" id="countLine8"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine9" id="countLine9"></td>
+                </tr>
+                <tr>
+                    <td>Select Wave</td>
+                    <td>000000</td>
+                    <td>0</td>
+                    <td><input class="table" type="number" name="countLine10" id="countLine10"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Create Wave" id="submit">
+
+        </form>
+        
+        
+        
+
+    
+        
+    </div>
+    
+</body>
+</html>
