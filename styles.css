@@ -1,21 +1,21 @@
 @font-face {
     font-family: Clarks_bold;
-    src: url("/fonts/ClarksVC-Bold.otf");
+    src: url("ClarksVC-Bold.otf");
 }
 
 @font-face {
     font-family: Clarks_heavy;
-    src: url("/fonts/ClarksVC-Heavy.otf");
+    src: url("ClarksVC-Heavy.otf");
 }
 
 @font-face {
     font-family: Orbitron;
-    src: url("/fonts/Orbitron-Black.ttf")
+    src: url("Orbitron-Black.ttf")
 }
 
 @font-face {
     font-family: Clarks_regular;
-    src: url("/fonts/ClarksVC-Regular.otf");
+    src: url("ClarksVC-Regular.otf");
 }
 
 * {
